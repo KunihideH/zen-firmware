@@ -28,6 +28,21 @@
             bindings = <&mkp MB2>;
             key-positions = <20 21>;
         };
+
+        MouseClickLeft2 {
+            bindings = <&mkp LCLK>;
+            key-positions = <42 18>;
+        };
+
+        MouseClickMiddle2 {
+            bindings = <&mkp MCLK>;
+            key-positions = <42 20>;
+        };
+
+        MouseClickRight2 {
+            bindings = <&mkp RCLK>;
+            key-positions = <42 21>;
+        };
     };
 
     keymap {
@@ -35,10 +50,10 @@
 
         layer_0 {
             bindings = <
-&kp ESC    &kp Q         &kp W             &kp E     &kp R           &kp T        &kp Y      &kp U            &kp I        &kp O           &kp P           &kp BSPC
-&kp LCTRL  &kp A         &kp S             &kp D     &kp F           &kp G        &kp H      &kp J            &kp K        &kp L           &kp SEMI        &kp MINUS
-&kp LSHFT  &kp Z         &kp X             &kp C     &kp V           &kp B        &kp SPACE  &kp BACKSPACE    &kp N        &kp M           &kp COMMA       &kp DOT          &kp UP_ARROW  &kp SLASH
-&kp TAB    &kp LEFT_WIN  &kp LEFT_CONTROL  &kp LALT  &kp LANGUAGE_1  &lt 1 SPACE  &kp ENTER  &lt 2 BACKSPACE  &lt 3 ENTER  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp ESC    &kp Q         &kp W             &kp E     &kp R                    &kp T        &kp Y      &kp U            &kp I        &kp O           &kp P           &kp BSPC
+&kp LCTRL  &kp A         &kp S             &kp D     &kp F                    &kp G        &kp H      &kp J            &kp K        &kp L           &kp SEMI        &kp MINUS
+&kp LSHFT  &kp Z         &kp X             &kp C     &kp V                    &kp B        &kp SPACE  &kp BACKSPACE    &kp N        &kp M           &kp COMMA       &kp DOT          &kp UP_ARROW  &kp SLASH
+&kp TAB    &kp LEFT_WIN  &kp LEFT_CONTROL  &kp LALT  &kp LANG_ZENKAKUHANKAKU  &lt 1 SPACE  &kp ENTER  &lt 2 BACKSPACE  &lt 3 ENTER  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
