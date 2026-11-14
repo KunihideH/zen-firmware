@@ -1,4 +1,4 @@
-#include "../boards/shield/zen/zen.dtsi"
+#include "../boards/shields/zen/zen.dtsi"
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 
